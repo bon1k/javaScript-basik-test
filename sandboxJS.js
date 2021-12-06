@@ -1,5 +1,7 @@
-let fildWr = prompt ("конечное число диапазона", '');
-
-if(fildWr < 100){
-        console.log(fildWr);
-    }
+function getStepen() {
+    let a = prompt("введи число которое нужно возвести в степень",'');
+    let b = prompt("введи степень",'');
+    rez = a ** b;
+    console.log(rez);
+}
+getStepen();
